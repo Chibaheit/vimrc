@@ -17,3 +17,7 @@ set fencs=utf-8,usc-bom,euc-jp,gb18030,gbk,gb2312,cp936
 
 " colorscheme
 colorscheme peaksea
+
+" coding style check
+let g:syntastic_python_checkers=['flake8']
+let g:syntastic_python_flake8_args="--ignore=E501"
