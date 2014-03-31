@@ -1,3 +1,10 @@
+" golang support
+filetype off
+filetype plugin indent off
+set runtimepath+=~/.vim_runtime/go-vim
+filetype plugin indent on
+syntax on
+
 " set line number
 set number
 
